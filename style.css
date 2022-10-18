@@ -203,13 +203,22 @@ div {
 }
 
 @media (max-width: 320px) {
-  .container>.card {
+  .container>.card2 {
     flex-basis: 51%;
   }
 }
 
-@media (max-width: 768px) {
-  .container>.card {
-    flex-basis: 90%;
+@media (max-width: 320px) {
+  .container>.card1 {
+    flex-basis: 51%;
   }
-}
+
+  @media (max-width: 320px) {
+    .container>.card3 {
+      flex-basis: 51%;
+    }
+
+    @media (max-width: 320px) {
+      .container>.roald {
+        flex-basis: 51%;
+      }
