@@ -210,7 +210,7 @@ div {
 
 @media (max-width: 320px) {
   .container>.card1 {
-    flex-basis: 51%;
+    flex-basis: 30%;
   }
 }
 
@@ -222,7 +222,7 @@ div {
 
 @media (max-width: 320px) {
   .container>.card2 {
-    flex-basis: 51%;
+    flex-basis: 30%;
   }
 }
 
@@ -234,7 +234,7 @@ div {
 
 @media (max-width: 320px) {
   .container>.card3 {
-    flex-basis: 51%;
+    flex-basis: 30%;
   }
 }
 
@@ -246,6 +246,6 @@ div {
 
 @media (max-width: 320px) {
   .container>.roald {
-    flex-basis: 51%;
+    flex-basis: 30%;
   }
 }
