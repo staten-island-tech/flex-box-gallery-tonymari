@@ -107,6 +107,24 @@ div {
   transform: rotate(360deg);
 }
 
+.container:hover .card2:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.3;
+  transform: rotate(360deg);
+}
+
+.container:hover .roald:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.3;
+  transform: rotate(360deg);
+}
+
+.container:hover .card3:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.3;
+  transform: rotate(360deg);
+}
+
 @-webkit-keyframes hvr-pulse-shrink {
   to {
     -webkit-transform: scale(0.9);
@@ -182,4 +200,16 @@ div {
 .roald:active {
   -webkit-transform: translateY(20px);
   transform: translateY(20px);
+}
+
+@media (max-width: 320px) {
+  .container>.card {
+    flex-basis: 51%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container>.card {
+    flex-basis: 90%;
+  }
 }
