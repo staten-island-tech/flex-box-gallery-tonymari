@@ -202,50 +202,50 @@ div {
   transform: translateY(20px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
+  .container>.card1 {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
   .container>.card1 {
     flex-basis: 90%;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .container>.card1 {
     flex-basis: 30%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+  .container>.card1 {
+    flex-basis: 20%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container>.card2 {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
   .container>.card2 {
     flex-basis: 90%;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .container>.card2 {
     flex-basis: 30%;
   }
 }
 
-@media (max-width: 768px) {
-  .container>.card3 {
-    flex-basis: 90%;
-  }
-}
-
-@media (max-width: 320px) {
-  .container>.card3 {
-    flex-basis: 30%;
-  }
-}
-
-@media (max-width: 768px) {
-  .container>.roald {
-    flex-basis: 90%;
-  }
-}
-
-@media (max-width: 320px) {
-  .container>.roald {
-    flex-basis: 30%;
+@media (max-width: 480px) {
+  .container>.card2 {
+    flex-basis: 20%;
   }
 }
